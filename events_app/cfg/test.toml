@@ -1,0 +1,21 @@
+ENVIRONMENT = "test"
+
+[sentry]
+dsn = "https://ce35"
+environment = "marketplace-events"
+# add your own dsn values
+
+
+[db]
+host = "localhost"
+port = "5432"
+database = "fever"
+username = "postgres"
+password = "postgres"
+
+
+[redis]
+host = "redis-12100.c233.eu-west-1-1.ec2.cloud.redislabs.com"
+port = "12100"
+password = "UmzKGgUzZkE4NMqjuzisvSUXSrLxGI6K"
+db = "test"
